@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Page</title>
+    
+   <link rel="stylesheet" href="style.css">   
+</head>
+
+<body>
+
+    <div class = "Container">
+       
+        <form id="myForm" style="" action="add.php" method = "POST" target="resultframe" >
+
+		<table class="mytable">
+		<tr>
+		<td></td>
+		<td style="text-align:center"><input type="submit" value = "forward" name = "forward"  class="savebt" > </td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><input type="submit" value = "left" name = "left"  class="savebt" ></td>
+		<td style="text-align:center"><input type="submit" value = "stop" name = "off"  class="offbt" ></td>
+		<td><input type="submit" value = "right" name = "right"  class="savebt" > </td>
+		</tr>
+		<tr>
+		<td></td>
+		<td style="text-align:center"><input type="submit" value = "backward" name = "backward"  class="savebt" > </td>
+		<td></td>
+		</tr>
+		
+		
+		</table>
+		<br/>
+		<div style="text-align:center">
+       
+		<a href="last_record.php" target="_blank">Get last record</a>
+		<br/>
+		<iframe name="resultframe" frameBorder="0" id="resultframe" style=""></iframe>
+		</div>
+		
+        </form>
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>

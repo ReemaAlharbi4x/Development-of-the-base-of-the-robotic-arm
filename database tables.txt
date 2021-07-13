@@ -1,0 +1,9 @@
+CREATE database motors_db2 ;
+use motors_db2;
+
+CREATE TABLE `direction_values` ( 
+`ID` BIGINT  UNSIGNED NOT NULL AUTO_INCREMENT,
+`direction` VARCHAR(500) NULL,
+PRIMARY KEY (ID) 
+) ;
+
