@@ -1,6 +1,6 @@
 # Design and control of the base of the robotic arm:
 
-***this work is based on Full Stack Front-End developing***
+***This work is based on Full Stack Front-End developing.***
 
 Here is the list of files:
 1. index.html 
